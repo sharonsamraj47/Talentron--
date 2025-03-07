@@ -1,0 +1,720 @@
+.title-text {
+  font-size: 34px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.title-subtext {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* below header - start */
+.job-seeker-button {
+  width: 130px;
+  height: 40px;
+  backdrop-filter: blur(4px);
+  background-color: #109bff;
+  font-size: 14px;
+  font-weight: 600;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  width:40px;
+  height:40px;
+  transform: translateY(-50%);
+  background-color: transparent !important;
+  border: 1px solid white;
+  padding: 0;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.left-arrow {
+  left: 30px;
+  color: white;
+}
+
+.right-arrow {
+  right: 30px;
+  color: white;
+}
+@media (max-width: 1980px) {
+  .left-arrow {
+    left: 200px;
+    color: white;
+  }
+  
+  .right-arrow {
+    right: 200px;
+    color: white;
+  }
+}
+@media (max-width: 1900px) {
+  .left-arrow {
+    left: 160px;
+    color: white;
+  }
+  
+  .right-arrow {
+    right: 160px;
+    color: white;
+  }
+}
+@media (max-width: 1714px) {
+  .left-arrow {
+    left: 70px;
+    color: white;
+  }
+  
+  .right-arrow {
+    right: 70px;
+    color: white;
+  }
+}
+@media (max-width: 1548px) {
+  .left-arrow {
+    left: 40px;
+    color: white;
+  }
+  
+  .right-arrow {
+    right: 40px;
+    color: white;
+  }
+}
+@media (max-width: 1506px) {
+  .left-arrow {
+    left: 20px;
+    color: white;
+  }
+  
+  .right-arrow {
+    right: 20px;
+    color: white;
+  }
+}
+@media (max-width: 1446px) {
+  .left-arrow {
+    left: 5px;
+    color: white;
+  }
+  
+  .right-arrow {
+    right: 5px;
+    color: white;
+  }
+}
+@media (max-width: 1399px) {
+  .left-arrow {
+    left: 20px;
+    color: white;
+  }
+  
+  .right-arrow {
+    right: 20px;
+    color: white;
+  }
+}
+@media (max-width: 1257px) {
+  .left-arrow {
+    left: 5px;
+    color: white;
+  }
+  
+  .right-arrow {
+    right: 5px;
+    color: white;
+  }
+}
+@media (max-width: 1200px) {
+  .left-arrow {
+    left: 30px;
+    color: white;
+  }
+  
+  .right-arrow {
+    right: 30px;
+    color: white;
+  }
+}
+@media (max-width: 1091px) {
+  .left-arrow {
+    left: 5px;
+    color: white;
+  }
+  
+  .right-arrow {
+    right: 5px;
+    color: white;
+  }
+}
+@media (max-width: 991px) {
+  .left-arrow {
+    left: 40px;
+    color: white;
+  }
+  
+  .right-arrow {
+    right: 40px;
+    color: white;
+  }
+}
+@media (max-width: 480px) {
+  .slider-arrow {
+    width:30px;
+    height:30px;
+    font-size: 18px;
+  
+  }
+}
+
+
+
+
+.below-header {
+  position: relative;
+}
+
+.gradient-bg {
+  background: linear-gradient(to right, #016bb8, #033684);
+}
+
+.indicators-css {
+ top:60%;
+  display: flex; 
+  gap: 8px;
+}
+
+@media (max-width: 1000px) {
+  .indicators-css{
+    display: flex;
+    gap: 8px;
+    top: 70%;
+ }
+ 
+}
+@media (max-width: 768px) {
+  .indicators-css{
+    display: flex;
+    gap: 8px;
+    top: 68%;
+ }
+ 
+}
+
+.scrollable-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.scrollable-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+  color: #575757;
+}
+
+.scrollable-container .card {
+  display: inline-block;
+  margin-right: 10px;
+  min-width: 150px;
+}
+
+.carousel-images img {
+  border-radius: 10px;
+  height: auto;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-image-container img {
+  max-width: 50%;
+  height: auto;
+}
+
+
+/* Indicators - Always Visible */
+.dot {
+  transition: background-color 0.3s;
+}
+
+.active-dot {
+  background-color: white !important;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+.image-container img {
+  width: 150px !important;
+  height: auto !important;
+  border-radius: 50%;
+  margin: 5px !important;
+  border: transparent !important;
+}
+
+.inner_image_overlay {
+  position: relative;
+  width: 100%;
+  max-width: 231px;
+  margin-left: -10px;
+}
+
+.inner_image_overlay .layer1 {
+  width: 85% !important;
+  height: auto;
+  border-radius: 0px;
+}
+
+.inner_image_overlay .layer2 {
+  position: absolute;
+  width: 70% !important;
+  border-radius: 0%;
+  height: auto;
+  top: 9%;
+  right: 17%;
+}
+
+.circle-button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #006cbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.circle-button i {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+}
+
+.scrollable-row {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  justify-content: center;
+}
+
+@media (max-width: 1400px) {
+  .scrollable-row{
+    justify-content: flex-start;
+  }
+}
+
+.scrollable-row .card {
+  min-width: 235.54px;
+  flex: 0 0 auto;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #006cbb80;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card img {
+  width: 48.12px;
+  height: 44.44px;
+  top: 470.93px;
+  left: 193.28px;
+  display: block;
+}
+
+.circle-button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #006cbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.circle-button i {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+}
+.custom-container {
+  background-color: white;
+  padding: 1rem;
+  margin: 0 auto;
+  border-radius: 8px 8px 0px 0px;
+  width: calc(100% - 30px);
+  max-width: 1200px;
+}
+
+/* below header - end */
+
+/* Why Client Choose Us - Start */
+
+.why-client-overlay-container {
+  position: relative;
+  width: 100%;
+  max-width: 531px;
+  margin: 0 auto;
+}
+
+.why-client-overlay-container .main-image {
+  width: 90%;
+  height: auto;
+  border: 2px solid #109bff;
+  border-radius: 10px;
+}
+
+.why-client-overlay-container .overlay-top-right {
+  position: absolute;
+  width: 25%;
+  height: auto;
+  top: 72%;
+  right: 3%;
+}
+
+.why-client-overlay-container .overlay-bottom-right {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  top: 0%;
+  left: 70%;
+  border-radius: 4px 0 0 0;
+}
+
+/* Why Client Choose Us - End */
+
+/* Talent Hiring process - start */
+
+.process-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  overflow-x: auto;
+  padding: 1.5rem 0;
+  white-space: nowrap;
+}
+
+.process-step {
+  text-align: center;
+  flex: 1 1 auto;
+  min-width: 120px;
+  max-width: 160px;
+}
+
+.process-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  opacity: 70%;
+  margin: 0;
+  padding: 0;
+}
+
+.process-step img {
+  width: 125px;
+  height: 125px;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+
+.hiring-process-index {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  padding: 0;
+}
+
+.arrow {
+  font-size: 70px;
+  width: 40px;
+  height: auto;
+  border: 5px;
+  color: #ffffff;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -75px;
+  opacity: 50%;
+}
+
+/* Talent Hiring process - end */
+
+/* Video container - start */
+
+.video-container {
+  position: relative;
+  padding-top: 40%;
+  max-width: 1200px;
+  margin: 0 auto;
+  max-height: 550px;
+}
+
+.video-container iframe,
+.video-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60px;
+  height: 60px;
+  background: #006cbb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.play-button svg {
+  fill: white;
+  width: 30px;
+  height: 30px;
+}
+
+.video-container img {
+  filter: brightness(0.7);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Video container - end */
+
+/* Our Training Process - start */
+
+.training-section {
+  background-color: #ebf0f5;
+}
+
+.training-container {
+  overflow-x: auto;
+  padding-top: 2rem;
+  white-space: nowrap;
+  position: relative;
+}
+
+.training-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  position: relative;
+  width: fit-content;
+  min-width: 100%;
+  justify-content: center;
+}
+
+.training-process {
+  text-align: center;
+  min-width: 150px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.training-process img {
+  width: 125px;
+  height: 125px;
+  margin-bottom: 1rem;
+}
+
+.line-circle {
+  position: relative;
+  width: 122%;
+  margin: 0;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.line-circle::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #000000;
+  z-index: 1;
+}
+.line-circle-start {
+  position: relative;
+  width: 140%;
+  margin: 0;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.line-circle-start::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  right: 0;
+  height: 3px;
+  background-color: #000000;
+  z-index: 1;
+  width: 50%;
+}
+.line-circle-end {
+  position: relative;
+  width: 122%;
+  margin: 0;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.line-circle-end::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #000000;
+  z-index: 1;
+  width: 50%;
+}
+
+.circle {
+  top:1.5px;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border: 3px solid #007bff;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.below-line-number {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #333333;
+}
+
+.training-process {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+  margin-top: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 19.5px;
+  text-align: center;
+}
+.training-subpoints {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 5;
+}
+
+.rectangle-arrow {
+  position: relative;
+  width: 105px; 
+  height: 21px; 
+  background: url("../images/Rectangle_arrow.png") no-repeat center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px; 
+  font-weight: 700;
+  color: #ffffff; 
+  text-align: center;
+}
+
+/* Our Training Process - End */
+
+/* why choose our training - start*/
+
+.why-our-training-overlay-container {
+  position: relative;
+  width: 100%;
+  max-width: 531px;
+  margin: 0 auto;
+}
+
+.why-our-training-overlay-container img:first-child {
+  width: 100%;
+  height: auto;
+  border: 2px solid #109bff;
+  border-radius: 10px;
+}
+
+.why-our-training-overlay-container img:last-child {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  top: 69%;
+  left: -9%;
+  border-radius: 4px 0px 0px 0px;
+}
+
+.tick-mark {
+  color: #000000;
+}
+
+.center-heading h2 {
+  font-weight: bold;
+}
+
+.center-heading h5 {
+  color: gray;
+}
+
+/* why choose our training - End*/

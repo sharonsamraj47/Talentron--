@@ -1,0 +1,172 @@
+.employers-form-container {
+  width: 100%;
+  max-width: 700px;
+  margin: -5px auto;
+  padding: 5px;
+  background-color: white;
+  }
+  .employers-form-heading {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+  }
+  .form-group3 {
+    flex: 1;
+    display: flex ;
+    align-items: center ;
+    justify-content: space-between;
+    white-space: nowrap ;
+    gap: 10px; 
+    width: 100%;
+  }
+  .form-group3.full-width {
+    flex-direction: column;
+    
+}
+.form-group3 input {
+  flex: 2 ; 
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+  .employers-form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 7px; 
+  }
+  .employers-form p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group3 label {
+    flex: 1; 
+    text-align: left;
+    font-weight: bold;
+    white-space: nowrap; 
+}
+  .employers-form input[type="text"],
+  .employers-form input[type="email"],
+  .employers-form textarea {
+    flex:2;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #006CBB;
+    background-color: #fafdff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+  
+  }
+  .employers-form input[type="text"]:focus,
+  .employers-form input[type="email"]:focus,
+  .employers-form textarea:focus {
+    border-color: #006CBB; 
+    outline: none;
+    
+ 
+  }
+  .requirements-textarea {
+    min-height: 120px;
+    max-height: none; 
+    resize: vertical;
+    overflow: visible; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+    
+  }
+  .employers-form button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  .employers-form button:hover {
+    background-color: #0056b3;
+  }
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .submission-message {
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .submission-message.success {
+    color: green;
+  }
+  .submission-message.error {
+    color: red;
+  }
+  
+  @media (max-width: 600px) {
+
+    .employers-form-heading {
+      font-size: 22px;
+    }
+    .employers-form button {
+      font-size: 14px;
+      padding: 10px;
+  }
+  }
+  
+  @media (max-width: 755px) {
+    .employers-form input[type="text"],
+    .employers-form input[type="email"],
+    .employers-form textarea {
+      padding: 8px;
+      font-size: 13px !important;
+     
+    
+    }
+    .form-group3 {
+      display: flex;
+      flex-direction: column; 
+      align-items: flex-start; 
+      gap:0px;
+    }
+  
+    .form-group3 label {
+      width: 100%; 
+      margin-bottom: 8px;
+      white-space: normal; 
+      font-size: 13px;
+    }
+    .employers-form-heading{
+      font-size: 16px;
+    }
+    .employers-form{
+      padding: 0px;
+     
+    }
+  }
+  @media (max-width: 457px){
+    .employers-form{
+      margin-top: -15px;
+      margin-left: -10px;
+      margin-right: -10px;
+     
+    }
+  }
+  

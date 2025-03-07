@@ -1,0 +1,1244 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css");
+@import "../styles/home.css";
+@import "../styles/training_program.css";
+@import "../styles/training_partner.css";
+@import "../styles/about_us.css";
+@import "../styles/contact_us.css";
+@import "../styles/employers.css";
+@import "../styles/form2.css";
+@import "../styles/trainerForm.css";
+@import "../styles/loaded.css";
+
+
+.headline {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700 !important;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+  line-height: 29.26px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.subtitle {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #454545;
+}
+.subtext {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #454545;
+  line-height: 19.5px;
+}
+.center-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.subheading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.points {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500 !important;
+  color: #454545;
+  line-height: 19.5px;
+}
+.indent{
+    padding-left: 26px;
+}
+
+.white-text {
+  color: #fff;
+}
+.grey-text {
+  color: #454545;
+}
+.blue-text {
+  color: #109bff;
+}
+.nav-link.active {
+  color: #006cbb !important;
+}
+
+/* title head - start */
+
+.dark-background {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top-banner {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  background: rgba(251, 0, 0, 0);
+  padding: 0.5rem 1.7rem;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+  width: auto;
+  height: 30px;
+  border: 2px solid rgb(153, 153, 153);
+}
+.top-banner i {
+  font-size: 12px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+.banner-text-style {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+.section-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.Below-section-heading{
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  color: #006CBB !important;
+  text-shadow: #00000040;
+  margin: 0;
+  padding: 0;
+
+}
+.section-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  margin-top: 0.5rem;
+  margin: 0;
+  padding: 0;
+  width: 415px;
+  height: 51px;
+}
+@media (max-width: 768px) {
+  .Below-section-heading{
+    font-size: 24px;
+  }
+}
+
+/* title head - end */
+
+/* form button - start */
+
+.form-button {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #006cbb;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.form-button img {
+  width: 23.33px;
+  height: 33.33px;
+}
+
+.form-button:hover {
+  background-color: #e0e0e0;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* form button - end */
+
+/* header - start */
+.container-custom {
+  margin-inline: 6%;
+}
+
+.header-class {
+  width: 1366px;
+  height: 38px;
+  top: 15px;
+  left: 83px;
+  gap: 0px;
+  opacity: 0px;
+}
+.header-font-size {
+  font-size: 14px !important;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.desktop-logo-img {
+  width: 149.39px;
+  height: 40px;
+  top: 15px;
+  left: 83px;
+  gap: 0px;
+  opacity: 0px;
+}
+.navbar-collapse {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: auto;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1030;
+}
+
+.navbar-toggler {
+  z-index: 1031;
+}
+
+.custom-font {
+  font-family: "Montserrat", sans-serif;
+}
+
+.mobile-logo {
+  max-height: 35px;
+}
+
+/* header - end */
+
+/* Footer */
+.footer-top{
+  min-height: 297.5px !important;
+}
+.footer-bottom {
+  position: relative;
+  min-height: 341.5px ;
+}
+.footer-background-color{
+  background-color: #006CBB;
+}
+
+.footer-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+}
+.footer-tele-email {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.63px;
+}
+
+.custom-submit {
+  width: 170px;
+  height: 40px;
+  top: 3543px;
+  left: 1113px;
+}
+.custom-font {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.custom-form input,
+.custom-form button {
+  height: 40px;
+}
+
+.custom-form {
+  max-width: 100%;
+  padding: 0 15px;
+}
+
+/* Footer - end */
+
+@media (max-width: 1024px) {
+  /* HomePage - start */
+
+  /* below header - start */
+  .arrow-left,
+  .arrow-right {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    padding: 8px;
+  }
+  .arrow-left {
+    left: 15px;
+    top: 50%;
+  }
+  .arrow-right {
+    right: 15px;
+    top: 50%;
+  }
+  .image-wrapper img {
+    width: 120px;
+    height: 120px;
+  }
+
+  /* below header - end */
+
+  /* Our Training Process - start */
+
+  .custom-shape::after {
+    content: "";
+    position: absolute;
+    top: -1px;
+    right: -24px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 3px 14px 25px;
+    border-color: transparent transparent transparent #006cbb;
+  }
+
+  /* Our Training Process - end */
+
+  /* HomePage - End */
+
+  /* training partner - start */
+
+    /* training partner - start */
+
+    .partner-scroll-container {
+      justify-content: flex-start; 
+      overflow-x: scroll; 
+      padding: 0 10px; 
+    }
+  
+    /* training partner - end */
+
+  /* explore talentron training community - start */
+
+  .explore-talentron-container {
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .explore-talentron-container > * {
+    flex: 0 0 auto;
+  }
+
+  /* explore talentron training community - End */
+
+  /* our compensation - start */
+
+  .custom-card {
+    max-width: 280px;
+    height: 300px !important;
+  }
+  .row {
+    justify-content: space-between;
+  }
+
+  /* Our compensation - End */
+
+  /* training partner - End */
+}
+
+@media (min-width: 992px) {
+  /* HomePage - start */
+
+  /* Header */
+  .navbar-collapse {
+    position: static;
+    background-color: transparent;
+    box-shadow: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .title-text {
+    text-align: left !important;
+  }
+
+  .job-seeker-button {
+    display: block;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 20px; /* Add spacing from titles */
+    width: 111px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .mobile-image-container img {
+    /* Center the mobile image below the titles */
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100% !important;
+    max-width: 349px;
+    height: 50% !important;
+  }
+  .text-lg-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Header - end */
+
+  /* Talent Hiring process - start */
+
+  .arrow {
+    font-size: 70px;
+    margin-top: -15px;
+    margin-top: -75px;
+  }
+
+  /* Talent Hiring process - end */
+
+  /* HomePage - End */
+
+  /* Training partner - start */
+
+}
+
+@media (max-width: 992px) {
+ 
+  /* Training partner - start */
+
+  /* our compensation - start */
+
+  .custom-card {
+    max-width: 280px;
+    height: 380px !important;
+  }
+
+  /* Our compensation - end */ 
+}
+
+@media (max-width: 768px) {
+  /* HomePage - start */
+
+  /* Form button - start */
+
+  .form-button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .form-button img {
+    width: 20px;
+    height: 30px;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+  /* Form button - end */
+
+  /* below header - start */
+
+  .mobile-image-container {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .mobile-image-container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  .mobile-image-container {
+    position: relative;
+    z-index: 1000;
+  }
+  .scrollable-row2 .card img {
+    width: 50px;
+    height: 50px;
+  }
+  /* below header - end */
+
+  /* why client choose us - start */
+  .why-client-overlay-container .main-image {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+  }
+
+  .why-client-overlay-container .overlay-top-right {
+    top: 71%;
+    right: -2%;
+    width: 25%;
+  }
+
+  .why-client-overlay-container .overlay-bottom-right {
+    top: 0%;
+    left: 75%;
+    width: 20%;
+  }
+  /* why client choose us - end */
+
+  /* Talent Hiring process - start */
+
+  .process-container {
+    flex-direction: row;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .process-step img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .arrow {
+    font-size: 70px;
+    margin-top: -65px;
+  }
+  /* Talent Hiring process - end */
+
+  /* Video container - start */
+
+  .video-container {
+    padding-top: 50%;
+    max-height: 350px;
+  }
+
+  .play-button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .play-button svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  /* Video container - end */
+
+  /* Our Training Process - start */
+
+  .training-container {
+    overflow-x: scroll;
+  }
+  .training-wrapper {
+    gap: 1.5rem;
+  }
+  .training-step {
+    min-width: 125px;
+    height: auto;
+  }
+
+  .custom-shape::after {
+    content: "";
+    position: absolute;
+    top: -0.5px;
+    right: -25px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 3px 14px 25px;
+    border-color: transparent transparent transparent #006cbb;
+  }
+
+  /* Our Training Process - end */
+
+  /* why choose our training - start*/
+
+  .center-heading h2 {
+    font-size: 1.5rem;
+  }
+
+  .center-heading h5 {
+    font-size: 1rem;
+  }
+  .why-our-training-overlay-container img:first-child {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+  }
+
+  .why-our-training-overlay-container img:last-child {
+    top: 67.5%;
+    left:2.5%;
+    width: 25%;
+  }
+
+  /* why choose our training - end*/
+
+  /* Footer */
+
+  .footer-top h2 {
+    font-size: 1.5rem;
+  }
+
+  .footer-bottom h4 {
+    font-size: 1.2rem;
+  }
+
+  .footer-bottom p {
+    font-size: 0.9rem;
+  }
+
+  
+
+  /* Footer - end */
+
+  /* HomePage - End */
+
+  /* training partner - start */
+
+  /*title head - start */
+
+  .head-container {
+    height: auto;
+    padding: 2rem 1rem;
+    padding: 0;
+    margin: 0;
+  }
+  .dark-background {
+    padding: 1.5rem;
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .section-heading {
+    font-size: 1.5rem !important; 
+  }
+  .section-paragraph {
+    font-size: 0.9rem;
+    width: 320px;
+    height: 51px;
+  }
+  /*title head - End */
+
+  /* training partner - start */
+
+  .partner-scroll-container {
+    justify-content: flex-start; 
+    overflow-x: scroll; 
+    padding: 0 10px; 
+  }
+
+  /* training partner - end */
+
+  /* explore talentron training community - start */
+
+  .explore-talentron-container {
+    justify-content: flex-start;
+  }
+  /* explore talentron training community - End */
+
+  /* our compensation - start */
+
+  .custom-card {
+    max-width: 480px;
+    height: auto !important;
+  }
+  .row {
+    justify-content: space-between;
+  }
+
+  .custom-section {
+    flex-direction: column;
+    align-items: center;
+
+    height: auto;
+    text-align: center;
+  }
+  .custom-section img {
+  width: 40px !important;
+    height: 40px !important;
+    margin-bottom: 10px;
+  }
+  .custom-section img:first-child {
+    order: 0;
+    margin-top: 10px;
+    margin-right: 30px;
+  }
+
+  .below-compensation {
+    order: 1;
+    margin: 20px 0;
+  }
+
+  .custom-section img:last-child {
+    order: 3;
+    margin-bottom: 15px;
+    margin-left: 20px;
+  }
+  .custom-section p {
+    font-size: 16px !important;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+  }
+
+  /* Our compensation - End */
+
+  /* FAQ - start */
+
+  .accordion-button {
+    font-size: 16px;
+    width: 90%;
+  }
+  .faq-answer {
+    font-size: 14px;
+  }
+
+  /* FAQ - End */
+
+  /* training partner - End */
+}
+
+@media (max-width: 576px) {
+  /* HomePage - start */
+
+  /* why client choose is - start */
+
+  .why-client-overlay-container .main-image {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+  }
+
+  .why-client-overlay-container .overlay-top-right {
+    top: 75%;
+    right: 5%;
+    width: 20%;
+  }
+
+  .why-client-overlay-container .overlay-bottom-right {
+    top: 0%;
+    left: 75%;
+    width: 15%;
+  }
+
+  /* why client choose is - end */
+
+  /* Talent Hiring process - start */
+  .process-container {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+
+  .process-step {
+    min-width: 100px;
+    text-align: center;
+  }
+
+  .process-step img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .arrow {
+    font-size: 70px;
+    margin-top: -10px;
+    margin-top: -75px;
+  }
+
+  /* Talent Hiring process - end */
+
+  /* our training process - start */
+  .training-container {
+    overflow-x: scroll;
+  }
+  .training-step {
+    min-width: 100px;
+  }
+  .training-step img {
+    max-width: 125px;
+    height: auto;
+  }
+  .line-circle {
+    position: relative;
+    width: 116%;
+    margin: 0;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+  }
+  .custom-shape::after {
+    content: "";
+    position: absolute;
+    top: -1px;
+    right: -25px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 3px 14px 25px;
+    border-color: transparent transparent transparent #006cbb;
+  }
+  /* our training process - end */
+
+  /* why choose our training - start */
+
+  .why-our-training-overlay-container img:first-child {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+  }
+  .why-our-training-overlay-container img:last-child {
+    top: 72%;
+    left: 4%;
+    width: 20%;
+  }
+
+  /* why choose our training - end */
+
+  /* Footer - start */
+
+  .footer-top h2 {
+    font-size: 1.2rem;
+  }
+
+  .footer-top form input,
+  .footer-top form button {
+    width: 100%;
+    max-width: none;
+  }
+
+  .social-follow {
+    width: 18px;
+  }
+
+  .footer-bottom p {
+    font-size: 0.8rem;
+  }
+
+  /* Footer - end */
+
+  /* HomePage - End */
+
+  /*training partner - start */
+
+  /* our compensation - start */
+
+  .custom-section {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .custom-section img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .custom-section p {
+    font-size: 16px !important;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+  }
+
+  /* our compensation - End */
+
+  /* training partner - End */
+}
+
+@media (max-width: 480px) {
+
+  .form-button {
+    display: none;
+  }
+
+  /* HomePage - start */
+
+  /*title head */
+
+  .section-paragraph {
+    font-size: 0.8rem !important;
+    width: 240px !important;
+    height: auto;
+  }
+
+  /*tile head - end */
+
+  .mobile-image-container img {
+    width: 100%;
+    max-width: 198px;
+  }
+
+  /* video container - start */
+
+  .video-container {
+    padding-top: 60%;
+    max-height: 250px;
+  }
+
+  .play-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .play-button svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* video container - End */
+
+  /* HomePage - End */
+
+  /* training partner - start */
+
+  /* FAQ - start */
+
+  .accordion-button {
+    font-size: 14px;
+    width: 90%;
+  }
+  .accordion-button::after {
+    right: -20px !important;
+  
+  }
+  .faq-answer {
+    font-size: 12px;
+  }
+
+  /* FAQ - End */
+
+  /* training partner - End */
+}
+
+/* Scroll to top button */
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 35px;
+  height: 35px;
+  font-size: 25px;
+  padding-bottom: 5px;
+  color: blue;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.scroll-to-top-btn.show {
+  opacity: 1;
+  visibility: visible;
+}
+.bi.bi-chevron-up {
+  transform: scale(1.6);
+}
+/* End of scroll to top button */
+
+/* FAQ - start */
+.collapsed .faq-answer-inside {
+  display: none;
+}
+
+  .faq-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .faq-question {
+    font-weight: bold;
+  }
+  
+  .accordion-button {
+    cursor: pointer;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    background-color: transparent;
+    color: black;
+    border: none;
+    box-shadow: none;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  
+  .accordion-button:focus,
+  .accordion-button:active {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    color: black !important;
+  }
+  
+  .accordion-button::after {
+    color: black !important;
+    font-family: "Font Awesome 5 Free" !important;
+    content: "\f068" !important; /* Minus icon */
+    font-weight: 900;
+    position: absolute !important;
+    right: -10px !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+  }
+  
+  .accordion-button.collapsed::after {
+    background-image: none;
+    content: "\f067" !important; /* Plus icon */
+  }
+  
+  .accordion-button::before {
+    display: none !important; 
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    background-image: none !important;
+  }
+  
+  .accordion-button.collapsed .faq-answer-inside {
+    color: black !important;
+    display: block !important;
+  }
+  .accordion-button:not(.collapsed) {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+    box-shadow: none !important;
+  }
+  
+  .faq-answer-inside {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: none;
+  }
+  
+  /* FAQ - end */
+
+  /* footer form 2 - start */
+
+ /* Pop-up Box */
+.popup-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  max-width: 300px;
+  width: 90%;
+  position: relative;
+}
+.modal-content {
+  border:none !important;
+  background-color: white !important;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+.modal-footer {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
+  border-top: none; /* Optional: Removes the default line above the footer */
+
+}
+.modal-title {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  
+}
+.modal-header {
+  display: flex ;
+  justify-content: center;
+  width: 100%;
+  border-bottom: none; 
+}
+
+
+  .boxy {
+    width: 100%;
+    height: 210px;
+    margin-top: 0px;
+    
+    background-color: #006CBB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.text3 {
+    text-align: center; 
+    margin-bottom: 42px; 
+    margin-top: 27px;
+}
+.text3 span {
+    
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    color: #FFFFFF;  
+}
+.text3 p{
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+}
+.modal-message-error {
+
+    color: red !important;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+  } 
+  .modal-message-success {
+    
+    color: rgb(12, 117, 19) !important;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+  }
+.text3 p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: #FFFFFF;
+}
+.form {
+    display: flex;
+    align-items: center;
+    gap: 42px;    
+    margin-bottom: 42px; 
+}
+.text {
+    width: 473px; 
+    height: 40px; 
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    padding-left: 22px;
+}
+
+.custom-submit-btn {
+  margin: 0;
+  padding: 0;
+  width: 170px; 
+  height: 40px; 
+  background-color: #333333;
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+ 
+}
+
+/* Hover Effect */
+.custom-submit-btn:hover {
+  background-color: #555555;
+  transform: scale(1.05);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Click Animation */
+.custom-submit-btn:active {
+  transform: scale(0.95);
+}
+@media screen and (min-width: 1700px) {
+    .boxy{
+        height: 300px;
+    }
+    .text3 span{
+        font-size: 30px;
+    }
+    .text3 p{
+        font-size: 28px;
+        margin-top: 5px;
+    }  
+}
+@media screen and (max-width: 1200px) {
+    .boxy {
+        height: auto;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .text3 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .text3 span {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .text3 p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .form {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    .text {
+        width: 90%;
+        max-width: 400px;
+        height: 40px;
+    }
+    #button12 {
+        width: 150px;
+        height: 40px;
+}
+}
+
+  /* footer form 2 - end */

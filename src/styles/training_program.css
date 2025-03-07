@@ -1,0 +1,677 @@
+/*title head - start */
+
+.training-program-head-container {
+    position: relative;
+    background: url("../images/training_program_head.png") no-repeat
+      center center/cover;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+  }
+
+  /*title head - end */
+
+  /* tab component - start */
+/* Navigation Tabs */
+.nav-tabs {
+  border-bottom: 2px solid #ddd;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  overflow-x: auto !important; 
+  overflow-y: hidden !important;
+  white-space: nowrap !important;
+  
+}
+
+.nav-tabs::-webkit-scrollbar {
+  display: none; 
+}
+
+.nav-tabs .nav-link {
+  color: white;
+   flex-shrink: 0;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  min-width: 324px;
+}
+.register-button{
+        background-Color: #006CBB; 
+        color: white; 
+        padding: 10px 20px; 
+        border: none; 
+        border-radius: 5px; 
+        margin-top: 10px; 
+        text-align: left; 
+        margin-left: 10px; 
+        padding-left: 15px !important;
+        cursor: pointer;
+}
+
+.nav-tabs .nav-link.active.nav-tab-fullstack {
+  background-color: #EAF7FF; 
+  color: white;
+  border-radius: 15px 15px 0 0;
+  border: 1px solid #006CBB;
+  border-bottom: none;
+}
+
+.nav-tabs .nav-link.active.nav-tab-frontend {
+  background-color: #FFEAEB; 
+  color: white;
+  border-radius: 15px 15px 0 0;
+  border: 1px solid #FF2934;
+  border-bottom: none;
+}
+
+.nav-tabs .nav-link.active.nav-tab-DataEngineering {
+  background-color: #FFF2E8; 
+  color: white;
+  border-radius: 15px 15px 0 0;
+  border: 1px solid #FF7008;
+  border-bottom: none;
+}
+.nav-tabs .nav-link.active.nav-tab-SoftwareTesting {
+  background-color: #F6FFCB;
+  color: white;
+  border-radius: 15px 15px 0 0;
+  border: 1px solid #9BAA58;
+  border-bottom: none;
+}
+
+/* Card Styling */
+
+.fullstack-tabView{
+  background-color: #EAF7FF;
+  border-radius: 0 15px 15px 15px;
+  border:1px solid #006CBB;
+  border-top: none;
+}
+.frontend-tabView{
+  background-color: #FFEAEB;
+  border-radius: 0 0 15px 15px;
+  border:1px solid #FF2934;
+  border-top: none;
+}
+.DataEngineering-tabView{
+  background-color: #FFF2E8;
+  border-radius: 0 0 15px 15px;
+  border:1px solid #FF7008;
+  border-top: none;
+}
+.SoftwareTesting-tabView{
+  background-color: #F6FFCB;
+  border-radius: 0 0 15px 15px;
+  border:1px solid #9BAA58;
+  border-top: none;
+}
+.TabviewImages{
+  width: 100%;
+  max-width: 280px!important;
+  height: 146px;
+  border-width: 1px;
+
+}
+.fullstack-tabView-box, .fullstack-lastColumn, .frontend-tabView-box, .frontend-lastColumn, .DataEngineering-tabView-box, .DataEngineering-lastColumn, .SoftwareTesting-tabView-box, .SoftwareTesting-lastColumn{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns content inside card to the left */
+  text-align: left; /* Ensures text remains left-aligned */
+  width: 100%;
+}
+
+.tabComponent-points {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px; /* Adds space between tick icon and text */
+}
+
+.tabComponent-points img {
+  width: 16px; /* Adjust tick icon size */
+  height: 16px;
+  margin-top: 7px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 1400px) {
+  .tabComponent-points {
+
+    align-items: flex-start;
+  }
+  .fullstack-lastColumn{
+    margin-left: -70px;
+    max-width:230px;
+  }
+  .frontend-lastColumn{
+    margin-left: -70px;
+    max-width:230px;
+  }
+  .DataEngineering-lastColumn{
+    margin-left: -70px;
+    max-width:230px;
+  }
+  .SoftwareTesting-lastColumn{
+    margin-left: -70px;
+    max-width:230px;
+  }
+}
+@media (max-width: 1200px) {
+  .fullstack-lastColumn{
+    margin-left:0px;
+    max-width:280px;
+  }
+  .frontend-lastColumn{
+    margin-left:0px;
+    max-width:280px;
+  }
+  .DataEngineering-lastColumn{
+    margin-left:0px;
+    max-width:280px;
+  }
+  .SoftwareTesting-lastColumn{
+    margin-left:0px;
+    max-width:280px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .tabComponent-points {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .first-threecolumn, .last-column {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.last-column{
+  padding-left: 35px!important;
+}
+.fullstack-tabView-box{
+  width: 280px;
+  height: 507px;
+  box-shadow: none !important;
+  background-color: #fff;
+  border: 1px solid hsl(201, 79%, 65%) ;
+
+}
+.frontend-tabView-box{
+  width: 280px;
+  height: 507px;
+  box-shadow: none !important;
+  background-color: #fff;
+  border: 1px solid hsl(357, 79%, 65%) ;
+}
+.DataEngineering-tabView-box{
+  width: 280px;
+  height: 507px;
+  box-shadow: none !important;
+  background-color: #fff;
+  border: 1px solid hsl(25, 79%, 65%);
+}
+.SoftwareTesting-tabView-box{
+  width: 280px;
+  height: 507px;
+  box-shadow: none !important;
+  background-color: #fff;
+  border: 1px solid hsl(71, 79%, 65%);
+}
+.fullstack-lastColumn{
+  width: 280px;
+  height: 120px;
+  box-shadow: none !important;
+  background-color: #fff;
+  border: 1px solid hsl(201, 79%, 65%) ;
+}
+.frontend-lastColumn{
+  width: 280px;
+  height: 120px;
+  box-shadow: none !important;
+  background-color: #fff;
+  border: 1px solid hsl(357, 79%, 65%) ;
+}
+.DataEngineering-lastColumn{
+  width: 280px;
+  height: 120px;
+  box-shadow: none !important;
+  background-color: #fff;
+  border: 1px solid hsl(25, 79%, 65%);
+}
+.SoftwareTesting-lastColumn{
+  width: 280px;
+  height: 120px;
+  box-shadow: none !important;
+  background-color: #fff;
+  border: 1px solid hsl(71, 79%, 65%);
+}
+
+
+@media (max-width: 768px) {
+  .fullstack-lastColumn, .frontend-lastColumn, .DataEngineering-lastColumn, .SoftwareTesting-lastColumn {
+   height: 630px;
+  }
+}
+.tabComponent-text {
+  font-family: "Montserrat", sans-serif;
+  color: #575757;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17.07px;
+  text-align: left;
+  margin-top: 10px;
+ 
+}
+.tabComponent-title{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px;
+  letter-spacing: 0%;
+  padding-left: 15px;
+
+}
+.tabComponent-points{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 15px;
+  color: #868686;
+  line-height: 30.07px;
+  letter-spacing: 0%;
+
+}
+.tabComponent-lastColumn-points{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 15px;
+  color: #868686;
+  line-height: 26.07px;
+  letter-spacing: 0%;
+}
+.tabComponent-arrow-icon {
+  font-size: 38px;
+  color: #575757;
+  margin-left: 10px;
+  position: relative;
+  top: -12px;
+}
+
+.tabComponent-icon-circle-1 {
+  width: 40px;
+  height: 40px ;
+  border-radius: 50%;
+  background-color: #006CBB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+}
+.tabComponent-icon-circle-2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #FF2934;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+}
+.tabComponent-icon-circle-3 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #FF7008;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+}
+.tabComponent-icon-circle-4 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #9BAA58;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+}
+.tabComponent-custom-card-1 {
+  border: 1px solid #006CBB;
+  background-color: #EAF7FF;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 270px;
+  height: 134px;
+  
+}
+.tabComponent-custom-card-1.active-tab {
+  border: none; 
+}
+.tabComponent-custom-card-2 {
+  border: 1px solid #FF2934;
+  background-color: #FFEAEB;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 370px;
+  height: 134px;
+}
+.tabComponent-custom-card-2.active-tab {
+  border: none; 
+}
+.tabComponent-custom-card-3 {
+  border: 1px solid #FF7008;
+  background-color: #FFF2E8;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 370px;
+  height: 134px;
+}
+.tabComponent-custom-card-3.active-tab {
+  border: none; 
+}
+.tabComponent-custom-card-4 {
+  border: 1px solid #9BAA58;
+  background-color: #F6FFCB;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 370px;
+  height: 134px;
+}
+.tabComponent-custom-card-4.active-tab {
+  border: none; 
+}
+  
+  @media (max-width: 768px) {
+    .tab-content-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+
+  /* tab component - end */
+
+  /* Thriving career at Talentron - start*/
+
+  .career-at-talentron-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 1.5rem 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: flex-start !important; 
+    white-space: nowrap;
+    justify-content: center;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .career-at-talentron-container > * {
+    scroll-snap-align: start;
+  }
+  .career-at-talentron-container .card {
+    flex: 0 0 auto;
+    width: 190px;
+    height: 120px;
+    text-align: center;
+    border: 2px solid #006CBB40;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px 1px 1px 1px;
+  }
+  .career-at-talentron-container .card-body img {
+    display: block;
+    margin-left: 52px !important;
+    margin-top: 10px !important;
+    width: 45px; 
+    height: auto;
+}
+  .career-at-talentron-container::-webkit-scrollbar {
+    height: 2px;
+  }
+  
+  .career-at-talentron-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+  
+  .career-at-talentron-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }  
+
+  @media (max-width: 1024px){
+    .career-at-talentron-container {
+      display: flex;
+      justify-content: flex-start !important;
+      align-items: center;
+      flex-wrap: nowrap;
+    }
+  
+    .career-at-talentron-container > * {
+      flex: 0 0 auto;
+    }
+    
+  }
+
+.career-overlay-container {
+  position: relative;
+  width: 100%;
+  max-width: 531px;
+  margin: 0 auto;
+}
+
+.career-overlay-container img:first-child {
+  width: 100%;
+  height: auto;
+  border: 2px solid #109bff;
+  border-radius: 10px;
+}
+
+.bottomRight-img {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  top: 70%;
+  left: 79%;
+  border-radius: 4px 0px 0px 0px;
+}
+
+.topRight-img{
+  position: absolute;
+  width: 20%;
+  height: auto;
+  top: 0%;
+  left: 80.5%;
+  border-radius: 4px 0px 0px 0px;
+}
+
+@media (max-width: 768px){
+  .career-overlay-container {
+    width: 100%;
+    max-width: 431px;
+
+  }
+  .bottomRight-img {
+    width: 25%;
+    top: 70%;
+    left: 82%;
+  }
+}
+@media (max-width: 480px){
+  .career-overlay-container {
+    width: 100%;
+    max-width: 277px;
+
+  }
+}
+
+/* Thriving career at Talentron - End*/
+
+  /* Showcasing portfolio - Start */
+
+.portfolio-sideheading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24.38px;
+  letter-spacing: 0%;
+
+}
+.portfolio-context{
+  font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+line-height: 19.5px;
+letter-spacing: 0%;
+
+}
+.portfolio-points{
+  font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+line-height: 19.5px;
+letter-spacing: 0%;
+
+}
+@media (max-width: 768px){
+  .portfolio-points{
+    font-size: 12px;
+  }
+}
+.showcasing-portfolio-overlay-container {
+  position: relative;
+  width: 100%;
+  max-width: 531px;
+  margin: 0 auto;
+}
+
+.showcasing-portfolio-overlay-container .main-image {
+  width: 90%;
+  height: auto;
+  border: 2px solid #109bff;
+  border-radius: 10px;
+}
+
+.showcasing-portfolio-overlay-container .showcasing-portfolio-overlay-bottom-right {
+  position: absolute;
+  width: 25%;
+  height: auto;
+  top: 72%;
+  right: 3%;
+}
+
+.showcasing-portfolio-overlay-container .showcasing-portfolio-overlay-top-right {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  top: 0%;
+  left: 70%;
+  border-radius: 4px 0 0 0;
+}
+
+/* Showcasing portfolio - End */
+
+.custom-blue-section {
+  background-color: #ebf0f5;
+  padding: 20px;
+  height: 161px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+.custom-blue-section img {
+  width: 70px;
+  height: 70px;
+}
+
+.below-portfolio {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px !important;
+  font-weight: 400;
+  margin: 0;
+  padding-left: 60px;
+  padding-right: 60px;
+  line-height: 29.26px;
+  text-align: center;
+  text-underline-position: from-font;
+}
+@media (max-width: 1200px){
+  .below-portfolio {
+    font-size: 20px !important;
+  }
+}
+@media (max-width: 992px){
+  .custom-blue-section{
+    height: 190px;
+  }
+  .below-portfolio {
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 768px){
+  .custom-blue-section {
+    flex-direction: column;
+    align-items: center;
+
+    height: auto;
+    text-align: center;
+  }
+  .custom-blue-section img {
+  width: 50px !important;
+    height: 50px !important;
+    margin-bottom: 10px;
+  }
+  .custom-blue-section img:first-child {
+    order: 0;
+    margin-top: 10px;
+    margin-right: 30px;
+  }
+
+  .below-portfolio {
+    order: 1;
+    margin: 20px 0;
+  }
+
+  .custom-blue-section img:last-child {
+    order: 3;
+    margin-bottom: 15px;
+    margin-left: 20px;
+  }
+  .custom-blue-section p {
+    font-size: 16px !important;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+  }
+}
+
+

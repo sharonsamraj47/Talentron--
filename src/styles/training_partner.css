@@ -1,0 +1,247 @@
+@import url("bootstrap/dist/css/bootstrap.min.css");
+
+/*title head - start */
+
+.training-partner-head-container {
+  position: relative;
+  background: url("../images/head_image.png") no-repeat
+    center center/cover;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+/*title head - end */
+
+/* partners - start */
+
+.partner-image-container img {
+  width: 184px;
+  height: 59px;
+
+  margin: 10px;
+  border: 1px solid #ffffff;
+}
+
+.partner-scroll-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  height: auto;
+  scrollbar-width: thin; 
+}
+.partner-scroll-container .partner-image-container {
+  display: inline-block; /* Ensures images appear inline for horizontal scrolling */
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+/* partners - end */
+
+/* Explore Talentron Training Community - start */
+
+.why-client-overlay-container {
+  position: relative;
+  width: 100%;
+  max-width: 531px;
+  margin: 0 auto;
+}
+
+.why-client-overlay-container .main-image {
+  width: 90%;
+  height: auto;
+  border: 2px solid #109bff;
+  border-radius: 10px;
+}
+
+.why-client-overlay-container .overlay-top-right {
+  position: absolute;
+  width: 25%;
+  height: auto;
+  top: 72%;
+  right: 3%;
+}
+
+.why-client-overlay-container .overlay-bottom-right {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  top: 0%;
+  left: 70%;
+  border-radius: 4px 0 0 0;
+}
+.explore-talentron-background {
+  position: relative;
+  background-color: #ebf0f5;
+}
+
+.explore-talentron-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  overflow-x: auto;
+  padding: 1.5rem 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  white-space: nowrap;
+  justify-content: center;
+  scroll-snap-type: x mandatory;
+}
+
+.explore-talentron-container > * {
+  scroll-snap-align: start;
+}
+
+.explore-talentron-image {
+  width: 54px;
+  height: 54px;
+}
+
+.explore-talentron-container .card {
+  flex: 0 0 auto;
+  width: 215px;
+  height: 134px;
+  text-align: center;
+  width: 215px;
+  border-radius: 8px 8px 8px 8px;
+  border: 1px 1px 1px 1px;
+}
+.card-body{
+  padding-left: 30px !important;
+}
+
+.card-title {
+  color: black;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.explore-talentron-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.explore-talentron-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.explore-talentron-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.points-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.point-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.point-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500 !important;
+  color: #454545;
+  line-height: 19.5px;
+}
+
+@media (max-width: 1200px) {
+  .explore-talentron-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+ 
+  }
+}
+/* explore talentron training community - end */
+
+/* Our compensation - start */
+
+.compensation-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+  text-underline-position: from-font;
+}
+.compensation-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  text-align: left;
+  text-underline-position: from-font;
+}
+.custom-section {
+  background-color: #ebf0f5;
+  padding: 20px;
+  height: 161px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+.custom-section img {
+  width: 70px;
+  height: 70px;
+}
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #006CBB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+}
+.custom-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 380px;
+  height: auto !important;
+}
+
+.below-compensation {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px !important;
+  font-weight: 600;
+  margin: 0;
+  padding-left: 60px;
+  padding-right: 60px;
+  line-height: 36.57px;
+  text-align: center;
+  text-underline-position: from-font;
+}
+
+.accordion-item {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* Our compensation - end */
+
+

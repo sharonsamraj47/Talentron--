@@ -1,0 +1,54 @@
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.loader {
+    display: flex;
+    gap: 5px;
+}
+
+.loader div {
+    width: 12px;
+    height: 44px;
+    animation: bounce 0.8s linear infinite;
+}
+
+/* Assign different colors */
+.loader div:nth-child(1) {
+    background: red;
+    animation-delay: -0.8s;
+}
+
+.loader div:nth-child(2) {
+    background: orange;
+    animation-delay: -0.65s;
+}
+
+.loader div:nth-child(3) {
+    background: green;
+    animation-delay: -0.5s;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scaleY(0.6);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scaleY(1);
+        opacity: 1;
+}
+}

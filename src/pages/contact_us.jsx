@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import "../styles/global.css";
 import Form2 from "../components/Form2";
 const ContactUs = () => {
+  const [activeTab, setActiveTab] = useState('jobdata');
   const [loading, setLoading] = useState(true);
   const [showForm, setShowForm] = useState(false);
   const [formType, setFormType] = useState(null);
@@ -60,7 +61,18 @@ useEffect(() => {
     const linkToOpen = isMobile ? mobileGoogleMapsLink : desktopGoogleMapsLink;
     window.open(linkToOpen, "_blank");
   };
-
+  const getModalPosition = () => {
+    switch (activeTab) {
+      case 'jobdata':
+        return { top: '10%', left: '50%' };
+      case 'trainers':
+        return { top: '15%', left: '48%' };
+      case 'employers':
+        return { top: '20%', left: '46%' };
+      default:
+        return { top: '10%', left: '50%' };
+    }
+  };
  
   return (
     <>

@@ -187,6 +187,7 @@
   font-size: 14px !important;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
+  color: #575757 !important;
 }
 .desktop-logo-img {
   width: 149.39px;
@@ -198,12 +199,13 @@
 }
 .navbar-collapse {
   position: absolute;
-  right: 0;
+  right: -8%;
   top: 100%;
   width: auto;
   background-color: #f8f9fa;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 1030;
+  padding: 10px;
 }
 
 .navbar-toggler {
@@ -415,6 +417,8 @@
 
 @media (max-width: 992px) {
  
+  
+
   /* Training partner - start */
 
   /* our compensation - start */

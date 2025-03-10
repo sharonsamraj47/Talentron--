@@ -51,20 +51,20 @@
       font-size: 22px !important;  
     }
   }
-  @media (max-width: 768px){
+  @media (max-width: 810px){
     .tab-button{
       justify-content: flex-start;
     }
     .custom-modal-width{
-      margin-left: 16px !important;
+      margin-left: 0px !important;
       margin-right: 16px !important;
       margin-bottom: 16px !important;
     }
   }
   @media (max-width: 575px){
     .custom-modal-width{
-      margin-left: 10px !important;
-      margin-right: 10px !important;
+      margin-left: 0px !important;
+      margin-right: 105x !important;
       margin-bottom: 25px !important;
     }
   }

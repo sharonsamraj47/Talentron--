@@ -143,17 +143,28 @@
   }
 }
 @media (max-width: 1091px) {
+  .indicators-css {
+    top:60% !important;
+
+   }
   .left-arrow {
-    left: 5px;
+    left: 1px;
     color: white;
   }
   
   .right-arrow {
-    right: 5px;
+    right: 1px;
     color: white;
   }
 }
+@media (max-width: 991px){
+  .indicators-css {
+    top:70% !important;
+
+   }
+}
 @media (max-width: 991px) {
+
   .left-arrow {
     left: 40px;
     color: white;

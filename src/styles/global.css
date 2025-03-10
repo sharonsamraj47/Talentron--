@@ -269,6 +269,26 @@
 
 /* Footer - end */
 
+@media (max-width: 2560px){
+  .form-button {
+    right: 20px;
+    top: 26%;
+  }
+}
+@media (max-width: 1640px){
+  .form-button {
+    right: 20px;
+    top: 49%;
+  }
+}
+
+@media (max-width: 1440px){
+  .form-button {
+    right: 20px;
+    top: 49%;
+  }
+}
+
 @media (max-width: 1024px) {
   /* HomePage - start */
 
@@ -417,7 +437,10 @@
 
 @media (max-width: 992px) {
  
-  
+  .form-button {
+    right: 20px;
+    top: 47%;
+  }
 
   /* Training partner - start */
 
@@ -437,6 +460,8 @@
   /* Form button - start */
 
   .form-button {
+    right: 20px;
+    top: 47%;
     width: 50px;
     height: 50px;
   }
